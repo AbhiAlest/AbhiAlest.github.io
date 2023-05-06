@@ -1,0 +1,40 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.navbar__left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.navbar__gap {
+  margin-right: 500px;
+}
+
+.navbar__right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__right button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.navbar__right button:hover {
+  text-decoration: underline;
+}
