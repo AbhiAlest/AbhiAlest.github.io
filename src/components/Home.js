@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../assets/profile-pic.jpg";
+import profilePic from "../assets/profile-pic.png";
 
 function Home() {
   return (
@@ -13,8 +13,8 @@ function Home() {
           />
         </div>
         <div className="col-md-6 order-md-1">
-          <h1 className="display-4">Your Name</h1>
-          <p className="lead">Short description about yourself</p>
+          <h1 className="display-4">AbhiAlest</h1>
+          <p className="lead">A Diligent Front-End Dev</p>
         </div>
       </div>
     </div>
