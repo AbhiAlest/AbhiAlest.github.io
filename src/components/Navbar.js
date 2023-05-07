@@ -25,7 +25,7 @@ function Navbar() {
         </Link>
         <div className="navbar__gap" style={{ width: "500px" }} />
         <Link to="/">Home</Link>
-        <Link to="/about">About Me</Link>
+        <Link to="/profile">About Me</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/blog">Blog</Link>
       </div>
