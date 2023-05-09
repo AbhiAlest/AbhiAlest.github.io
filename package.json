@@ -1,1 +1,26 @@
-
+{
+  "name": "abhialestwebsite",
+  "version": "1.0.0",
+  "description": "My personal website built with React",
+  "main": "index.js",
+  "homepage": "https://AbhiAlest.github.io",
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build && cp -r build/* ../AbhiAlest.github.io",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbhiAlest/abhialestwebsite.git"
+  },
+  "author": "AbhiAlest",
+  "license": "GNU General 3.0",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  }
+}
